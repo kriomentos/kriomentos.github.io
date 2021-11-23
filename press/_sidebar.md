@@ -1,6 +1,6 @@
-* [Main website](https://kriomentos.github.io/ "Main website")
-* [Example](example.md "Example headline")
+* [Main website](https://kriomentos.github.io/)
+* [Example](example.md)
 
 - Group
-	* [First](/group/first.md "First headline")
-	* [Second](/group/second.md "Second headline")
+	* [First](/group/first.md)
+	* [Second](/group/second.md)
