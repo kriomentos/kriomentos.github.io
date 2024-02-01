@@ -1,9 +1,8 @@
-![logo](_media/favicon.png)
+# kreeos Roguelike journey
 
-# ModdedVanilla
+> A ones man attempt at creating *something*.
 
-> A magical Minecraft server knowledge site.
+[GitHub](https://github.com/kriomentos/Python-bits)
+[Hop in and check out yourself](readme.md)
 
-[Learn what we changed!](readme.md)
-
-![color](#478AC9)
+![color](#47c9ad)

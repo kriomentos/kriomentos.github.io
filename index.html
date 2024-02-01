@@ -8,19 +8,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- <link rel='icon' type='image/png' href='/assets/favicon.ico'> -->
 
+  <!-- Base theme with light/dark theme stylesheets -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/style.min.css" type="text/css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="light">
-  <link rel="stylesheet alternative" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
 
+  <!-- Custom color styles -->
   <style>
   	:root {
   		--theme-hue:  218;
 
-  		--base-color:  #90b8de;
-  		--heading-color: #90b8de;
-  		--strong-color:  #90b8de;
-  	} 
+  		--base-color:  #47c9ad;
+  		--heading-color: #47c9ad;
+  		--strong-color:  #47c9ad;
+
+      --sidebar-border-width: 0px thin 0px 0px;
+      --sidebar-nav-link-border-radius: 1px;
+
+      --sidebar-nav-link-border-color--active: var(--base-color);
+      --sidebar-nav-link-border-color--hover: var(--base-color);
+
+      --sidebar-nav-link-border-width--active: 0px 0px 0px medium; 
+      --sidebar-nav-link-border-width--hover: 0px 0px 0px medium;
+      --sidebar-nav-link-padding: 0.25rem 0 0.25rem 0.25rem;
+      --sidebar-nav-link-text-decoration--active: none;
+      
+      --sidebar-nav-pagelink-border-width--hover: 0px 0px 0px medium;
+      --sidebar-nav-pagelink-padding: 0.25rem 0 0.25rem 0.25rem;
+      --sidebar-nav-pagelink-background: none !important;
+      --sidebar-nav-pagelink-background--active: none !important;
+      --sidebar-nav-pagelink-background--collapse: none !important;
+      --sidebar-nav-pagelink-background--loaded: none !important;
+
+    } 
   	.app-name-link img {
   		width:  30%;
   	}
@@ -28,37 +49,30 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- Configuration -->
   <script>
     window.$docsify = {
     	auto2top: true,
-    	autoHeader: true,
     	coverpage: false,
     	loadSidebar: true,
-      name: 'Rougelike',
-      repo: '',
+      maxLevel: 4,
+      subMaxLevel: 2,
+      name: 'Rougelike adventures',
+      repo: 'https://github.com/kriomentos',
       themeable: {
       	readyTransition: true,
       	responsiveTables: true
       },
-      darkMode: {
-      	dark: {
-					background: "#242729",
-      		toggleBtnBg: "#57799c",
-      		textColor: "#b4b4b4"
-      	},
-      	light: {
-      		background: "#fcfcfc",
-      		toggleBtnBg: "var(--theme-color)",
-      		textColor: "var(--theme-color)"
-      	}
-      },
-      themeColor: "#90B8DE"
+      themeColor: '#47c9ad',
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
+  <!-- Themeable scripts -->
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js" type="text/javascript"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js" type="text/javascript"></script>
+
+  <!-- Plugins -->
 </body>
 </html>
