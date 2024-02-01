@@ -36,4 +36,6 @@ Chaos is my way.
 - Joining of separated map elements
 - Saving and loading
 - Inventory and items (added to player)
-    - Add inventory to enemies with drops on death
+    - Add inventory to enemies with drops on death (currently only Goblin enemy)
+
+    
