@@ -1,6 +1,6 @@
 # kreeos Roguelike journey
 
-> A ones man attempt at creating *something*.
+> A one man attempt at creating *something*.
 
 [GitHub](https://github.com/kriomentos/Python-bits)
 [Hop in and check out yourself](readme.md)
