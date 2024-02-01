@@ -11,16 +11,29 @@ Chaos is my way.
 ## Current goals
 
 - Introduce overworld map, cities, caves, forests, lakes and others.
+    - Add minimap?
 - Introduce aquifers to current procgen algorithm
 - Expand procgen with new generation methods outside of just cellular automata:
     - Room generators, tree or graph based
     - Door-n-key generators
     - Some noise based generation for various bits like forests
     - Co-join some of them to work together on one map (map that has some rooms inside a cave, for a goblin camp of sorts, for example)
+- Improve loot generation
+- Add more advanced  AI and mob types
+- Add interactions between AI driven entities and world (not only AI and player, this one is already achieve partially through Goblin type enemy)
 - Add end goal
+- Improve handling of non-hostile entities
+- Stats system (more complicated one)
+- Improve interface (bare bones for now)
+- Graphical tiles
+- Configurable settings and graphics
 
 ## Goals completed
 
 - Performance improvements to cellular automata
 - More "sane" mimic handling
 - Interactable objects with their own handler and component
+- Joining of separated map elements
+- Saving and loading
+- Inventory and items (added to player)
+    - Add inventory to enemies with drops on death
