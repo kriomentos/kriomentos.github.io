@@ -4,14 +4,14 @@
 
 This will be an ever changing list of goals towards certain milestones, like an alpha build, which I personally consider to be a state in which the game is playable start to finish, but lacks content and  polish.
 
-This list is in no paticular order as what I currently work on implementing is heavily dependent on what I feel like doing and any attempt at following any strict "tasklist" will fail misearably and make want to progress less.
+This list is in no particular order as what I currently work on implementing is heavily dependent on what I feel like doing and any attempt at following any strict "task list" will fail miserably and make want to progress less.
 
 Chaos is my way.
 
 ## Current goals
 
 - Introduce overworld map, cities, caves, forests, lakes and others.
-- Intorudce aquifiers to current procgen algorithm
+- Introduce aquifers to current procgen algorithm
 - Expand procgen with new generation methods outside of just cellular automata:
     - Room generators, tree or graph based
     - Door-n-key generators
