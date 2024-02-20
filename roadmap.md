@@ -37,5 +37,3 @@ Chaos is my way.
 - Saving and loading
 - Inventory and items (added to player)
     - Add inventory to enemies with drops on death (currently only Goblin enemy)
-
-    
