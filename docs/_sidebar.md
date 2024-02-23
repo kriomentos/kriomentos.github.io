@@ -3,5 +3,5 @@
     - [Roadmap](roadmap.md)
 
 - Devlog
-    - [Aquifers](/#/docs/aquifers.md)
+    - [Aquifers](docs/aquifers.md)
     - [Test](docs/test.md)
