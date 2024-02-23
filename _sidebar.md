@@ -1,6 +1,6 @@
 - Mainpage
-    - [Home](README.md)
-    - [Roadmap](roadmap.md)
+    - [Home](/#/README.md)
+    - [Roadmap](/#/roadmap.md)
 
 - Devlog
-    - [Aquifers](docs/aquifers.md)
+    - [Aquifers](/#/docs/aquifers.md)
