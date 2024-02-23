@@ -1,0 +1,143 @@
+:root {
+    /* Monochrome */
+    --mono-hue: 160;
+    --mono-saturation: 0%;
+
+    /* Monochrome shades (darker) and tints (lighter) */
+    --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 20%); /* #333333 */
+    --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 30%); /* #4d4d4d */
+    --mono-shade1: hsl(var(--mono-hue), var(--mono-saturation), 40%); /* #666666 */
+    --mono-base: hsl(var(--mono-hue), var(--mono-saturation), 50%); /* #808080 */
+    --mono-tint1: hsl(var(--mono-hue), var(--mono-saturation), 70%); /* #b3b3b3 */
+    --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 89%); /* #e3e3e3 */
+    --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 97%); /* #f7f7f7 */
+
+    --theme-hue:  160;
+    --theme-saturation: 90%;
+    --theme-lightness: 43%;
+    --theme-color: hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness));
+
+    /* --base-color: var(); */
+    --heading-color: #47c9ad;
+    --strong-color:  #47c9ad;
+
+    --cover-blockquote-color: var(--heading-color);
+    --cover-heading-color: var(--heading-color);
+
+    /* COVER */
+    --cover-color                                      : ;
+    --cover-margin                                     : 0 auto;
+    --cover-max-width                                  : 40em;
+    --cover-text-align                                 : center;
+
+    /* Background */
+    --cover-background-blend-mode                      : ;
+    --cover-background-color                           : var(--base-background-color);
+    --cover-background-image                           : ;
+    --cover-background-mask-color                      : var(--base-background-color);
+    --cover-background-mask-opacity                    : 0.8;
+    --cover-background-mask-visibility                 : ;
+    --cover-background-position                        : center center;
+    --cover-background-repeat                          : no-repeat;
+    --cover-background-size                            : cover;
+
+    /* Blockquote (Subtitle) */
+    --cover-blockquote-color                           : ;
+    --cover-blockquote-font-size                       : var(--font-size-l);
+
+    /* Buttons */
+    --cover-button-background                          : ;
+    --cover-button-background--hover                   : ;
+    --cover-button-border                              : 1px solid var(--theme-color);
+    --cover-button-border--hover                       : ;
+    --cover-button-border-radius                       : var(--border-radius-m);
+    --cover-button-box-shadow                          : ;
+    --cover-button-box-shadow--hover                   : ;
+    --cover-button-color                               : var(--theme-color);
+    --cover-button-color--hover                        : ;
+    --cover-button-padding                             : 0.5em 2rem;
+    --cover-button-text-decoration                     : none;
+    --cover-button-text-decoration--hover              : ;
+    --cover-button-text-decoration-color               : ;
+    --cover-button-text-decoration-color--hover        : ;
+    --cover-button-transition                          : all var(--duration-fast) ease-in-out;
+
+    /* Buttons - Primary */
+    --cover-button-primary-background                  : var(--theme-color);
+    --cover-button-primary-background--hover           : ;
+    --cover-button-primary-border                      : 1px solid var(--theme-color);
+    --cover-button-primary-border--hover               : ;
+    --cover-button-primary-box-shadow                  : ;
+    --cover-button-primary-box-shadow--hover           : ;
+    --cover-button-primary-color                       : #fff;
+    --cover-button-primary-color--hover                : ;
+    --cover-button-primary-text-decoration             : ;
+    --cover-button-primary-text-decoration--hover      : ;
+    --cover-button-primary-text-decoration-color       : ;
+    --cover-button-primary-text-decoration-color--hover: ;
+
+    /* Heading */
+    --cover-heading-color                              : var(--theme-color);
+    --cover-heading-font-size                          : var(--font-size-xxl);
+    --cover-heading-font-size-min                      : ;
+    --cover-heading-font-size-max                      : ;
+    --cover-heading-font-weight                        : normal;
+
+    /* Name */
+    --sidebar-name-background                     : ;
+    --sidebar-name-color                          : ;
+    --sidebar-name-font-family                    : ;
+    --sidebar-name-font-size                      : var(--font-size-l);
+    --sidebar-name-font-weight                    : normal;
+    --sidebar-name-margin                         : 1.5rem 0 0;
+    --sidebar-name-padding                        : ;
+    --sidebar-name-text-align                     : center;
+
+    --link-color: var(--heading-color);
+
+    --sidebar-border-color: var(--heading-color);
+    --sidebar-border-width: 0px thin 0px 0px;
+
+    --sidebar-name-color: var(--heading-color);
+
+    --sidebar-nav-link-border-radius: 1px;
+
+    --sidebar-nav-link-border-color--active: var(--heading-color);
+    --sidebar-nav-link-border-color--hover: var(--heading-color);
+
+    --sidebar-nav-link-color--active: var(--heading-color);
+    --sidebar-nav-link-color--hover: var(--heading-color);
+
+    --sidebar-nav-link-border-width--active: 0px 0px 0px medium; 
+    --sidebar-nav-link-border-width--hover: 0px 0px 0px medium;
+    --sidebar-nav-link-padding: 0.25rem 0 0.25rem 0.25rem;
+    --sidebar-nav-link-text-decoration--active: none;
+
+    --sidebar-nav-pagelink-border-width--hover: 0px 0px 0px medium;
+    --sidebar-nav-pagelink-padding: 0.25rem 0 0.25rem 0.25rem;
+    --sidebar-nav-pagelink-background: none !important;
+    --sidebar-nav-pagelink-background--active: none !important;
+    --sidebar-nav-pagelink-background--collapse: none !important;
+    --sidebar-nav-pagelink-background--loaded: none !important;
+
+    --sidebar-nav-link-margin: 0;
+
+    --heading-margin: 2.5rem 0 0;
+    --heading-h2-margin: 2.5rem 0 0;
+    --heading-h2-padding: 0;
+    --heading-h2-border-style: none;
+}
+
+.sidebar-nav p { 
+    color: var(--heading-color)
+}
+
+img {
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.app-name-link img {
+    width:  30%;
+    color: var(--heading-color);
+}
